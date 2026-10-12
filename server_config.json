@@ -1,0 +1,39 @@
+{
+  "sensor_configs": {
+    "dispenser-1:shot1": {
+      "name": "dispenser-1 shot1",
+      "role": "shot"
+    },
+    "dispenser-1:shot2": {
+      "name": "dispenser-1 shot2",
+      "role": "shot"
+    },
+    "dispenser-1:gutter": {
+      "name": "dispenser-1 gutter",
+      "role": "gutter"
+    },
+    "legacy:shot1": {
+      "name": "legacy shot1",
+      "role": "shot"
+    },
+    "legacy:shot2": {
+      "name": "legacy shot2",
+      "role": "shot"
+    },
+    "legacy:gutter": {
+      "name": "legacy gutter",
+      "role": "gutter"
+    }
+  },
+  "outputs": {
+    "drill": {
+      "name": "Drill",
+      "ip": "192.168.1.2",
+      "generation": "gen2"
+    }
+  },
+  "settings": {
+    "drill_max_seconds": 4.0,
+    "sensor_hold_ms": 1
+  }
+}
